@@ -1,5 +1,5 @@
 #![feature(trait_alias)]
-#![feature(vec_remove_item)]
+// #![feature(vec_remove_item)]
 
 mod ast;
 pub mod commands;
@@ -15,5 +15,5 @@ pub use crate::ast::*;
 pub use error::Error;
 pub use problem::Problem;
 pub(crate) use simplify::*;
-pub(crate) use utils::*;
 pub use utils::Domain;
+pub(crate) use utils::*;

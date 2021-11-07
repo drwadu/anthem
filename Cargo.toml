@@ -17,3 +17,6 @@ termcolor = "1.1"
 [dependencies.clingo]
 git = "https://github.com/potassco/clingo-rs"
 rev = "61cc68c0dfef96398db064f0b7fc2e838e7b9204"
+
+[features]
+as_tightness_checker = []
